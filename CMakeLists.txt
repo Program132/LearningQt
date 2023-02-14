@@ -17,7 +17,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(QtLearning main.cpp)
+add_executable(QtLearning main.cpp src/MainWindow/MainWindow.cpp src/MainWindow/MainWindow.h src/Button/Button.cpp src/Button/Button.h)
 target_link_libraries(QtLearning
         Qt::Core
         Qt::Gui
