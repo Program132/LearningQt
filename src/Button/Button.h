@@ -3,11 +3,11 @@
 
 #include <QPushButton>
 
-class Button : QPushButton {
+class Button : public QPushButton {
 
 public:
-    explicit Button(QWidget *parent = 0);
-    ~Button() override;
+     explicit Button(QWidget *parent = nullptr);
+    ~Button() override ;
 };
 
 

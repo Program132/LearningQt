@@ -5,5 +5,5 @@ Button::Button(QWidget *parent) : QPushButton(parent) {
 }
 
 Button::~Button() {
-    qDebug() << this->text() << "got deleted" << Qt::endl;
+    //qDebug() << this->text() << "got deleted" << Qt::endl;
 }
