@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QVBoxLayout>
+#include <QHBoxLayout>
 #include <QString>
 
 #include "../Button/Button.h"
@@ -21,6 +22,7 @@ private: // Elements pour la fenetre
 
     QWidget* mainWidget_btns;
     QVBoxLayout* vLayout_btns;
+    QHBoxLayout* hLayout_btns;
 
 };
 
